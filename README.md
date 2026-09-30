@@ -72,6 +72,7 @@ The app is set to **Portrait** orientation so the interface does not rotate whil
 | Tilt Left | Turn Left |
 | Tilt Right | Turn Right |
 | Little or No Tilt | Stop |
+ <img src="media/robo4.3.jpg" width="300">
 
 The speed changes according to the amount of phone tilt.
 
@@ -82,6 +83,20 @@ The MIT App Inventor app sends HTTP GET requests to the ESP32 using the format:
 `/drive?dir=X&speed=Y`
 
 The ESP32 receives the direction and speed, converts the speed percentage into a PWM value, and controls the two motors.
+## 📱 MIT App Inventor App
+
+The MIT App Inventor source project is available here:
+
+👉 [Download the `.aia` project](code/tilt.aia)
+
+### 🖥️ App Interface
+<table>
+  <tr>
+    <td><img src="media/robo4.1.jpg" width="300"></td>
+    <td><img src="media/robo4.2.jpg" width="300"></td>
+ 
+  </tr>
+</table>
 
 ## Differential Steering
 
@@ -109,10 +124,6 @@ This allows smoother turns.
     <td><img src="media/robo4.3.jpeg" width="300"></td>
   </tr>
 </table>
-
-## Demo
-
-[▶️ Watch Demo Video](media/demo.mp4)
 
 ## What I Learned
 
