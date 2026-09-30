@@ -23,7 +23,9 @@ The system follows:
 5. The ESP32 controls the motors through the L298N motor driver.
 6. The robot moves according to the phone's tilt.
 
-## Hardware
+<table>
+  <tr>
+    <td>Hardware
 
 - ESP32-S3-CAM
 - L298N Motor Driver
@@ -32,11 +34,10 @@ The system follows:
 - Robot Chassis
 - 3 × 3.7V Batteries
 - Jumper Wires
-- Smartphone
+- Smartphone</td>
+    <td>Components & Connections
 
-## Components & Connections
-
-### ESP32-S3-CAM → L298N
+ ESP32-S3-CAM → L298N
 
 | ESP32 Pin | L298N Pin | Purpose |
 |-----------|-----------|---------|
@@ -46,6 +47,12 @@ The system follows:
 | GPIO 14 | IN3 | Motor B Direction 1 |
 | GPIO 41 | IN4 | Motor B Direction 2 |
 | GPIO 42 | ENB | PWM Speed Control Motor B |
+</td>
+  </tr>
+</table>
+
+
+
 
 ## MIT App Inventor Controller
 
