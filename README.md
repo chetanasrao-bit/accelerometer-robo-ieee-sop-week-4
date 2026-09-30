@@ -140,4 +140,3 @@ The phone detects its tilt, the MIT App Inventor app converts it into movement c
 - Add smoother acceleration and deceleration
 - Improve the tilt visualizer
 - Add adjustable sensitivity
-- Add additional safety features
