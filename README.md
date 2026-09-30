@@ -119,9 +119,9 @@ This allows smoother turns.
 
 <table>
   <tr>
-    <td><img src="media/robo4.1.jpeg" width="300"></td>
-    <td><img src="media/robo4.2.jpeg" width="300"></td>
-    <td><img src="media/robo4.3.jpeg" width="300"></td>
+    <td><img src="media/robo4.4.png" width="300"></td>
+    <td><img src="media/robo4.5.jpeg" width="300"></td>
+    <td><img src="media/robo4.5.jpg" width="300"></td>
   </tr>
 </table>
 
